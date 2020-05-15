@@ -44,7 +44,7 @@ h3 {
 }
   .page a.logo {
     margin: 8% auto 20px;
-    padding-top: 70px;
+    padding-top: 40px;
     background: transparent url('../img/logo.png') center top no-repeat;
     display: block;
   }
@@ -438,7 +438,10 @@ h3 {
       text-decoration: none;
       display: block;
     }
-
+    #game-wrap .more-info a.source-code {
+      padding-bottom: 26px;
+      background: transparent url('../img/github-logo.png') center bottom no-repeat;
+    }
     #game-wrap .more-info a.restart-game {
       padding-left: 20px;
       background: transparent url('../img/restart-icon.png') left center no-repeat;
@@ -583,6 +586,7 @@ body.is-mobile {
   }
 }
 
+
 .menu-wrap {
   position: fixed;
   top: 0;
@@ -606,9 +610,9 @@ body.is-mobile {
   top: 0;
   left: 0;
   z-index: 1;
-  width: 60px;
-  height: 60px;
-  padding: 1rem;
+  width: 80px;
+  height: 80px;
+  padding: 0.5rem;
   background: var(--primary-color);
   display: flex;
   align-items: center;
@@ -620,8 +624,8 @@ body.is-mobile {
   position: relative;
   flex: none;
   width: 100%;
-  height: 2px;
-  background: rgb(17, 194, 248);
+  height: 10px;
+  background: rgb(6, 253, 68);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -636,7 +640,7 @@ body.is-mobile {
   z-index: 1;
   top: -10px;
   width: 100%;
-  height: 2px;
+  height: 10px;
   background: inherit;
 }
 
@@ -712,9 +716,9 @@ body.is-mobile {
 }
 
 .menu-wrap .menu > div > div > ul > li {
-  list-style: none;
-  color: #fff;
-  font-size: 1.5rem;
+  list-style: armenian;
+  color: #fffffffd;
+  font-size: 1.3rem;
   padding: 1rem;
 }
 
